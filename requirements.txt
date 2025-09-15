@@ -1,0 +1,43 @@
+# QuranBot Requirements
+# ======================
+# 
+# This file contains all Python dependencies required to run QuranBot.
+# Install with: pip install -r requirements.txt
+#
+# Dependencies are organized by functionality for easy maintenance.
+
+# Core Discord API Library
+# =========================
+# Using latest master branch for reconnection fixes and latest features
+discord.py @ git+https://github.com/Rapptz/discord.py@master
+# Required for Discord voice functionality (audio streaming)
+PyNaCl>=1.5.0
+
+# Environment Configuration
+# ==========================
+# Loads environment variables from .env file (DISCORD_TOKEN, etc.)
+python-dotenv>=1.0.0
+
+# Process Management & Instance Locking
+# =====================================
+# Used by LockManager to prevent multiple bot instances
+# Provides process monitoring and PID-based locking
+psutil>=7.0.0
+
+# Audio Processing
+# ================
+# FFmpeg wrapper for audio file handling and streaming
+# Required for Discord voice channel audio playback
+ffmpeg-python>=0.2.0
+
+# Enhanced Logging & Output
+# ==========================
+# Provides colored terminal output for better development experience
+# Used by the custom logger for visual distinction of log levels
+colorama>=0.4.6
+
+# Audio Metadata & Duration Extraction
+# ======================================
+# Reads MP3 file metadata to get accurate duration information
+# Used for extracting precise durations from Quran audio files
+mutagen>=1.47.0

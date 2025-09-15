@@ -1,0 +1,140 @@
+"""
+QuranBot - Surah Names Data
+============================
+
+Comprehensive mapping of all 114 Quranic Surahs with their authentic names.
+
+This module provides the authoritative source for all Surah names used throughout
+the QuranBot system, including:
+- Arabic names (original script)
+- English transliterations
+- English translations
+
+All names are sourced from authentic Islamic texts and maintained for accuracy.
+This data is used by the search system, control panel, and presence handler
+to provide consistent and correct Surah identification across the bot.
+
+Author: حَـــــنَّـــــا
+Server: discord.gg/syria
+Version: v1.0.0
+"""
+
+# Comprehensive mapping of all 114 Quranic Surahs
+# Each entry contains Arabic name, English transliteration, and English translation
+# Used throughout the bot for consistent Surah identification and display
+SURAH_NAMES = {
+    1: {"arabic": "الفاتحة", "english": "Al-Fatihah", "translation": "The Opening"},
+    2: {"arabic": "البقرة", "english": "Al-Baqarah", "translation": "The Cow"},
+    3: {"arabic": "آل عمران", "english": "Al-Imran", "translation": "The Family of Imran"},
+    4: {"arabic": "النساء", "english": "An-Nisa", "translation": "The Women"},
+    5: {"arabic": "المائدة", "english": "Al-Ma'idah", "translation": "The Table Spread"},
+    6: {"arabic": "الأنعام", "english": "Al-An'am", "translation": "The Cattle"},
+    7: {"arabic": "الأعراف", "english": "Al-A'raf", "translation": "The Heights"},
+    8: {"arabic": "الأنفال", "english": "Al-Anfal", "translation": "The Spoils of War"},
+    9: {"arabic": "التوبة", "english": "At-Tawbah", "translation": "The Repentance"},
+    10: {"arabic": "يونس", "english": "Yunus", "translation": "Jonah"},
+    11: {"arabic": "هود", "english": "Hud", "translation": "Hud"},
+    12: {"arabic": "يوسف", "english": "Yusuf", "translation": "Joseph"},
+    13: {"arabic": "الرعد", "english": "Ar-Ra'd", "translation": "The Thunder"},
+    14: {"arabic": "إبراهيم", "english": "Ibrahim", "translation": "Abraham"},
+    15: {"arabic": "الحجر", "english": "Al-Hijr", "translation": "The Rock"},
+    16: {"arabic": "النحل", "english": "An-Nahl", "translation": "The Bee"},
+    17: {"arabic": "الإسراء", "english": "Al-Isra", "translation": "The Night Journey"},
+    18: {"arabic": "الكهف", "english": "Al-Kahf", "translation": "The Cave"},
+    19: {"arabic": "مريم", "english": "Maryam", "translation": "Mary"},
+    20: {"arabic": "طه", "english": "Ta-Ha", "translation": "Ta-Ha"},
+    21: {"arabic": "الأنبياء", "english": "Al-Anbiya", "translation": "The Prophets"},
+    22: {"arabic": "الحج", "english": "Al-Hajj", "translation": "The Pilgrimage"},
+    23: {"arabic": "المؤمنون", "english": "Al-Mu'minun", "translation": "The Believers"},
+    24: {"arabic": "النور", "english": "An-Nur", "translation": "The Light"},
+    25: {"arabic": "الفرقان", "english": "Al-Furqan", "translation": "The Criterion"},
+    26: {"arabic": "الشعراء", "english": "Ash-Shu'ara", "translation": "The Poets"},
+    27: {"arabic": "النمل", "english": "An-Naml", "translation": "The Ant"},
+    28: {"arabic": "القصص", "english": "Al-Qasas", "translation": "The Stories"},
+    29: {"arabic": "العنكبوت", "english": "Al-Ankabut", "translation": "The Spider"},
+    30: {"arabic": "الروم", "english": "Ar-Rum", "translation": "The Romans"},
+    31: {"arabic": "لقمان", "english": "Luqman", "translation": "Luqman"},
+    32: {"arabic": "السجدة", "english": "As-Sajdah", "translation": "The Prostration"},
+    33: {"arabic": "الأحزاب", "english": "Al-Ahzab", "translation": "The Confederates"},
+    34: {"arabic": "سبإ", "english": "Saba", "translation": "Sheba"},
+    35: {"arabic": "فاطر", "english": "Fatir", "translation": "The Originator"},
+    36: {"arabic": "يس", "english": "Ya-Sin", "translation": "Ya-Sin"},
+    37: {"arabic": "الصافات", "english": "As-Saffat", "translation": "The Rangers"},
+    38: {"arabic": "ص", "english": "Sad", "translation": "Sad"},
+    39: {"arabic": "الزمر", "english": "Az-Zumar", "translation": "The Groups"},
+    40: {"arabic": "غافر", "english": "Ghafir", "translation": "The Forgiver"},
+    41: {"arabic": "فصلت", "english": "Fussilat", "translation": "Explained in Detail"},
+    42: {"arabic": "الشورى", "english": "Ash-Shura", "translation": "The Consultation"},
+    43: {"arabic": "الزخرف", "english": "Az-Zukhruf", "translation": "The Ornaments"},
+    44: {"arabic": "الدخان", "english": "Ad-Dukhan", "translation": "The Smoke"},
+    45: {"arabic": "الجاثية", "english": "Al-Jathiyah", "translation": "The Kneeling"},
+    46: {"arabic": "الأحقاف", "english": "Al-Ahqaf", "translation": "The Sand Dunes"},
+    47: {"arabic": "محمد", "english": "Muhammad", "translation": "Muhammad"},
+    48: {"arabic": "الفتح", "english": "Al-Fath", "translation": "The Victory"},
+    49: {"arabic": "الحجرات", "english": "Al-Hujurat", "translation": "The Rooms"},
+    50: {"arabic": "ق", "english": "Qaf", "translation": "Qaf"},
+    51: {"arabic": "الذاريات", "english": "Adh-Dhariyat", "translation": "The Winds"},
+    52: {"arabic": "الطور", "english": "At-Tur", "translation": "The Mount"},
+    53: {"arabic": "النجم", "english": "An-Najm", "translation": "The Star"},
+    54: {"arabic": "القمر", "english": "Al-Qamar", "translation": "The Moon"},
+    55: {"arabic": "الرحمن", "english": "Ar-Rahman", "translation": "The Beneficent"},
+    56: {"arabic": "الواقعة", "english": "Al-Waqi'ah", "translation": "The Event"},
+    57: {"arabic": "الحديد", "english": "Al-Hadid", "translation": "The Iron"},
+    58: {"arabic": "المجادلة", "english": "Al-Mujadilah", "translation": "The Pleading Woman"},
+    59: {"arabic": "الحشر", "english": "Al-Hashr", "translation": "The Exile"},
+    60: {"arabic": "الممتحنة", "english": "Al-Mumtahanah", "translation": "The Examined One"},
+    61: {"arabic": "الصف", "english": "As-Saff", "translation": "The Ranks"},
+    62: {"arabic": "الجمعة", "english": "Al-Jumu'ah", "translation": "Friday"},
+    63: {"arabic": "المنافقون", "english": "Al-Munafiqun", "translation": "The Hypocrites"},
+    64: {"arabic": "التغابن", "english": "At-Taghabun", "translation": "The Mutual Loss"},
+    65: {"arabic": "الطلاق", "english": "At-Talaq", "translation": "The Divorce"},
+    66: {"arabic": "التحريم", "english": "At-Tahrim", "translation": "The Prohibition"},
+    67: {"arabic": "الملك", "english": "Al-Mulk", "translation": "The Sovereignty"},
+    68: {"arabic": "القلم", "english": "Al-Qalam", "translation": "The Pen"},
+    69: {"arabic": "الحاقة", "english": "Al-Haqqah", "translation": "The Reality"},
+    70: {"arabic": "المعارج", "english": "Al-Ma'arij", "translation": "The Ascending Stairways"},
+    71: {"arabic": "نوح", "english": "Nuh", "translation": "Noah"},
+    72: {"arabic": "الجن", "english": "Al-Jinn", "translation": "The Jinn"},
+    73: {"arabic": "المزمل", "english": "Al-Muzzammil", "translation": "The Enshrouded One"},
+    74: {"arabic": "المدثر", "english": "Al-Muddaththir", "translation": "The Cloaked One"},
+    75: {"arabic": "القيامة", "english": "Al-Qiyamah", "translation": "The Resurrection"},
+    76: {"arabic": "الإنسان", "english": "Al-Insan", "translation": "The Human"},
+    77: {"arabic": "المرسلات", "english": "Al-Mursalat", "translation": "The Emissaries"},
+    78: {"arabic": "النبإ", "english": "An-Naba", "translation": "The Tidings"},
+    79: {"arabic": "النازعات", "english": "An-Nazi'at", "translation": "Those Who Drag Forth"},
+    80: {"arabic": "عبس", "english": "Abasa", "translation": "He Frowned"},
+    81: {"arabic": "التكوير", "english": "At-Takwir", "translation": "The Overthrowing"},
+    82: {"arabic": "الإنفطار", "english": "Al-Infitar", "translation": "The Cleaving"},
+    83: {"arabic": "المطففين", "english": "Al-Mutaffifin", "translation": "The Defrauding"},
+    84: {"arabic": "الإنشقاق", "english": "Al-Inshiqaq", "translation": "The Splitting Open"},
+    85: {"arabic": "البروج", "english": "Al-Buruj", "translation": "The Mansions"},
+    86: {"arabic": "الطارق", "english": "At-Tariq", "translation": "The Morning Star"},
+    87: {"arabic": "الأعلى", "english": "Al-A'la", "translation": "The Most High"},
+    88: {"arabic": "الغاشية", "english": "Al-Ghashiyah", "translation": "The Overwhelming"},
+    89: {"arabic": "الفجر", "english": "Al-Fajr", "translation": "The Dawn"},
+    90: {"arabic": "البلد", "english": "Al-Balad", "translation": "The City"},
+    91: {"arabic": "الشمس", "english": "Ash-Shams", "translation": "The Sun"},
+    92: {"arabic": "الليل", "english": "Al-Layl", "translation": "The Night"},
+    93: {"arabic": "الضحى", "english": "Ad-Duha", "translation": "The Morning Hours"},
+    94: {"arabic": "الشرح", "english": "Ash-Sharh", "translation": "The Relief"},
+    95: {"arabic": "التين", "english": "At-Tin", "translation": "The Fig"},
+    96: {"arabic": "العلق", "english": "Al-Alaq", "translation": "The Clot"},
+    97: {"arabic": "القدر", "english": "Al-Qadr", "translation": "The Power"},
+    98: {"arabic": "البينة", "english": "Al-Bayyinah", "translation": "The Clear Proof"},
+    99: {"arabic": "الزلزلة", "english": "Az-Zalzalah", "translation": "The Earthquake"},
+    100: {"arabic": "العاديات", "english": "Al-Adiyat", "translation": "The Courser"},
+    101: {"arabic": "القارعة", "english": "Al-Qari'ah", "translation": "The Calamity"},
+    102: {"arabic": "التكاثر", "english": "At-Takathur", "translation": "The Rivalry"},
+    103: {"arabic": "العصر", "english": "Al-Asr", "translation": "The Time"},
+    104: {"arabic": "الهمزة", "english": "Al-Humazah", "translation": "The Traducer"},
+    105: {"arabic": "الفيل", "english": "Al-Fil", "translation": "The Elephant"},
+    106: {"arabic": "قريش", "english": "Quraysh", "translation": "Quraysh"},
+    107: {"arabic": "الماعون", "english": "Al-Ma'un", "translation": "The Small Kindnesses"},
+    108: {"arabic": "الكوثر", "english": "Al-Kawthar", "translation": "The Abundance"},
+    109: {"arabic": "الكافرون", "english": "Al-Kafirun", "translation": "The Disbelievers"},
+    110: {"arabic": "النصر", "english": "An-Nasr", "translation": "The Divine Support"},
+    111: {"arabic": "المسد", "english": "Al-Masad", "translation": "The Palm Fiber"},
+    112: {"arabic": "الإخلاص", "english": "Al-Ikhlas", "translation": "The Sincerity"},
+    113: {"arabic": "الفلق", "english": "Al-Falaq", "translation": "The Daybreak"},
+    114: {"arabic": "الناس", "english": "An-Nas", "translation": "The Mankind"}
+}

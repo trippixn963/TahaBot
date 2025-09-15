@@ -1,0 +1,76 @@
+# GitHub Discussions Configuration for QuranBot
+#
+# Comprehensive discussion categories and community settings for the QuranBot
+# open source project, fostering Islamic knowledge sharing and technical collaboration.
+#
+# Community Philosophy:
+# - Welcoming environment for Muslims and non-Muslims interested in Islamic technology
+# - Emphasis on accurate Islamic content and respectful discourse
+# - Technical excellence combined with Islamic values (Ihsan in development)
+# - Collaborative development with community input and feedback
+#
+# Category Design:
+# - Islamic content discussions for accuracy and authenticity
+# - Technical support for users and developers
+# - Feature suggestions aligned with Islamic principles
+# - Community building and networking opportunities
+#
+# Moderation Approach:
+# - Community-driven with maintainer oversight
+# - Focus on constructive and respectful dialogue
+# - Protection of Islamic content accuracy and authenticity
+
+# Discussion categories configuration
+categories:
+  - name: "🕌 General"
+    description: "General discussions about QuranBot"
+    emoji: "🕌"
+
+  - name: "📖 Islamic Content"
+    description: "Discussions about Islamic content, accuracy, and knowledge"
+    emoji: "📖"
+
+  - name: "🆘 Support"
+    description: "Get help with QuranBot setup, configuration, and usage"
+    emoji: "🆘"
+
+  - name: "💡 Ideas & Suggestions"
+    description: "Share your ideas for new features and improvements"
+    emoji: "💡"
+
+  - name: "🏗️ Development"
+    description: "Development discussions, code contributions, and technical topics"
+    emoji: "🏗️"
+
+  - name: "📢 Announcements"
+    description: "Project announcements and updates"
+    emoji: "📢"
+    locked: true  # Only maintainers can create posts
+
+  - name: "🤝 Community"
+    description: "Community introductions, off-topic discussions, and networking"
+    emoji: "🤝"
+
+# Discussion settings
+settings:
+  # Enable discussions
+  enabled: true
+
+  # Allow community contributions
+  community_discussions: true
+
+  # Discussion moderation
+  moderation:
+    enabled: true
+    auto_lock_resolved: true
+    require_approval: false
+
+  # Labels for discussions
+  discussion_labels:
+    - "Islamic Content"
+    - "Technical Support"
+    - "Feature Request"
+    - "Community"
+    - "Question"
+    - "Resolved"
+    - "In Progress"

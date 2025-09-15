@@ -1,0 +1,688 @@
+{
+  "surahs": {
+    "1": {
+      "arabic": "الفاتحة",
+      "english": "Al-Fatihah",
+      "translation": "The Opening",
+      "emoji": "📖"
+    },
+    "2": {
+      "arabic": "البقرة",
+      "english": "Al-Baqarah",
+      "translation": "The Cow",
+      "emoji": "🐄"
+    },
+    "3": {
+      "arabic": "آل عمران",
+      "english": "Ali 'Imran",
+      "translation": "Family of Imran",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    "4": {
+      "arabic": "النساء",
+      "english": "An-Nisa",
+      "translation": "The Women",
+      "emoji": "👩"
+    },
+    "5": {
+      "arabic": "المائدة",
+      "english": "Al-Ma'idah",
+      "translation": "The Table Spread",
+      "emoji": "🍽️"
+    },
+    "6": {
+      "arabic": "الأنعام",
+      "english": "Al-An'am",
+      "translation": "The Cattle",
+      "emoji": "🐑"
+    },
+    "7": {
+      "arabic": "الأعراف",
+      "english": "Al-A'raf",
+      "translation": "The Heights",
+      "emoji": "⛰️"
+    },
+    "8": {
+      "arabic": "الأنفال",
+      "english": "Al-Anfal",
+      "translation": "The Spoils of War",
+      "emoji": "⚔️"
+    },
+    "9": {
+      "arabic": "التوبة",
+      "english": "At-Tawbah",
+      "translation": "The Repentance",
+      "emoji": "🤲"
+    },
+    "10": {
+      "arabic": "يونس",
+      "english": "Yunus",
+      "translation": "Jonah",
+      "emoji": "🐋"
+    },
+    "11": {
+      "arabic": "هود",
+      "english": "Hud",
+      "translation": "Hud",
+      "emoji": "🏛️"
+    },
+    "12": {
+      "arabic": "يوسف",
+      "english": "Yusuf",
+      "translation": "Joseph",
+      "emoji": "👑"
+    },
+    "13": {
+      "arabic": "الرعد",
+      "english": "Ar-Ra'd",
+      "translation": "The Thunder",
+      "emoji": "⚡"
+    },
+    "14": {
+      "arabic": "إبراهيم",
+      "english": "Ibrahim",
+      "translation": "Abraham",
+      "emoji": "🕋"
+    },
+    "15": {
+      "arabic": "الحجر",
+      "english": "Al-Hijr",
+      "translation": "The Rocky Tract",
+      "emoji": "🪨"
+    },
+    "16": {
+      "arabic": "النحل",
+      "english": "An-Nahl",
+      "translation": "The Bee",
+      "emoji": "🐝"
+    },
+    "17": {
+      "arabic": "الإسراء",
+      "english": "Al-Isra",
+      "translation": "The Night Journey",
+      "emoji": "🌙"
+    },
+    "18": {
+      "arabic": "الكهف",
+      "english": "Al-Kahf",
+      "translation": "The Cave",
+      "emoji": "🕳️"
+    },
+    "19": {
+      "arabic": "مريم",
+      "english": "Maryam",
+      "translation": "Mary",
+      "emoji": "🤱"
+    },
+    "20": {
+      "arabic": "طه",
+      "english": "Ta-Ha",
+      "translation": "Ta-Ha",
+      "emoji": "✨"
+    },
+    "21": {
+      "arabic": "الأنبياء",
+      "english": "Al-Anbya",
+      "translation": "The Prophets",
+      "emoji": "📜"
+    },
+    "22": {
+      "arabic": "الحج",
+      "english": "Al-Hajj",
+      "translation": "The Pilgrimage",
+      "emoji": "🕌"
+    },
+    "23": {
+      "arabic": "المؤمنون",
+      "english": "Al-Mu'minun",
+      "translation": "The Believers",
+      "emoji": "🤍"
+    },
+    "24": {
+      "arabic": "النور",
+      "english": "An-Nur",
+      "translation": "The Light",
+      "emoji": "💡"
+    },
+    "25": {
+      "arabic": "الفرقان",
+      "english": "Al-Furqan",
+      "translation": "The Criterion",
+      "emoji": "⚖️"
+    },
+    "26": {
+      "arabic": "الشعراء",
+      "english": "Ash-Shu'ara",
+      "translation": "The Poets",
+      "emoji": "✍️"
+    },
+    "27": {
+      "arabic": "النمل",
+      "english": "An-Naml",
+      "translation": "The Ant",
+      "emoji": "🐜"
+    },
+    "28": {
+      "arabic": "القصص",
+      "english": "Al-Qasas",
+      "translation": "The Stories",
+      "emoji": "📚"
+    },
+    "29": {
+      "arabic": "العنكبوت",
+      "english": "Al-'Ankabut",
+      "translation": "The Spider",
+      "emoji": "🕷️"
+    },
+    "30": {
+      "arabic": "الروم",
+      "english": "Ar-Rum",
+      "translation": "The Romans",
+      "emoji": "🏛️"
+    },
+    "31": {
+      "arabic": "لقمان",
+      "english": "Luqman",
+      "translation": "Luqman",
+      "emoji": "🧙"
+    },
+    "32": {
+      "arabic": "السجدة",
+      "english": "As-Sajdah",
+      "translation": "The Prostration",
+      "emoji": "🙇"
+    },
+    "33": {
+      "arabic": "الأحزاب",
+      "english": "Al-Ahzab",
+      "translation": "The Combined Forces",
+      "emoji": "🛡️"
+    },
+    "34": {
+      "arabic": "سبأ",
+      "english": "Saba",
+      "translation": "Sheba",
+      "emoji": "👸"
+    },
+    "35": {
+      "arabic": "فاطر",
+      "english": "Fatir",
+      "translation": "Originator",
+      "emoji": "🌌"
+    },
+    "36": {
+      "arabic": "يس",
+      "english": "Ya-Sin",
+      "translation": "Ya Sin",
+      "emoji": "💚"
+    },
+    "37": {
+      "arabic": "الصافات",
+      "english": "As-Saffat",
+      "translation": "Those who set the Ranks",
+      "emoji": "📿"
+    },
+    "38": {
+      "arabic": "ص",
+      "english": "Sad",
+      "translation": "The Letter Sad",
+      "emoji": "📝"
+    },
+    "39": {
+      "arabic": "الزمر",
+      "english": "Az-Zumar",
+      "translation": "The Troops",
+      "emoji": "👥"
+    },
+    "40": {
+      "arabic": "غافر",
+      "english": "Ghafir",
+      "translation": "The Forgiver",
+      "emoji": "🤲"
+    },
+    "41": {
+      "arabic": "فصلت",
+      "english": "Fussilat",
+      "translation": "Explained in Detail",
+      "emoji": "📋"
+    },
+    "42": {
+      "arabic": "الشورى",
+      "english": "Ash-Shuraa",
+      "translation": "The Consultation",
+      "emoji": "🤝"
+    },
+    "43": {
+      "arabic": "الزخرف",
+      "english": "Az-Zukhruf",
+      "translation": "The Ornaments of Gold",
+      "emoji": "💎"
+    },
+    "44": {
+      "arabic": "الدخان",
+      "english": "Ad-Dukhan",
+      "translation": "The Smoke",
+      "emoji": "🌫️"
+    },
+    "45": {
+      "arabic": "الجاثية",
+      "english": "Al-Jathiyah",
+      "translation": "The Crouching",
+      "emoji": "🧎"
+    },
+    "46": {
+      "arabic": "الأحقاف",
+      "english": "Al-Ahqaf",
+      "translation": "The Wind-Curved Sandhills",
+      "emoji": "🏜️"
+    },
+    "47": {
+      "arabic": "محمد",
+      "english": "Muhammad",
+      "translation": "Muhammad",
+      "emoji": "☪️"
+    },
+    "48": {
+      "arabic": "الفتح",
+      "english": "Al-Fath",
+      "translation": "The Victory",
+      "emoji": "🏆"
+    },
+    "49": {
+      "arabic": "الحجرات",
+      "english": "Al-Hujurat",
+      "translation": "The Rooms",
+      "emoji": "🚪"
+    },
+    "50": {
+      "arabic": "ق",
+      "english": "Qaf",
+      "translation": "The Letter Qaf",
+      "emoji": "🔤"
+    },
+    "51": {
+      "arabic": "الذاريات",
+      "english": "Adh-Dhariyat",
+      "translation": "The Winnowing Winds",
+      "emoji": "💨"
+    },
+    "52": {
+      "arabic": "الطور",
+      "english": "At-Tur",
+      "translation": "The Mount",
+      "emoji": "🏔️"
+    },
+    "53": {
+      "arabic": "النجم",
+      "english": "An-Najm",
+      "translation": "The Star",
+      "emoji": "⭐"
+    },
+    "54": {
+      "arabic": "القمر",
+      "english": "Al-Qamar",
+      "translation": "The Moon",
+      "emoji": "🌕"
+    },
+    "55": {
+      "arabic": "الرحمن",
+      "english": "Ar-Rahman",
+      "translation": "The Beneficent",
+      "emoji": "💖"
+    },
+    "56": {
+      "arabic": "الواقعة",
+      "english": "Al-Waqi'ah",
+      "translation": "The Inevitable",
+      "emoji": "⏰"
+    },
+    "57": {
+      "arabic": "الحديد",
+      "english": "Al-Hadid",
+      "translation": "The Iron",
+      "emoji": "🔧"
+    },
+    "58": {
+      "arabic": "المجادلة",
+      "english": "Al-Mujadila",
+      "translation": "The Pleading Woman",
+      "emoji": "🗣️"
+    },
+    "59": {
+      "arabic": "الحشر",
+      "english": "Al-Hashr",
+      "translation": "The Exile",
+      "emoji": "🚶"
+    },
+    "60": {
+      "arabic": "الممتحنة",
+      "english": "Al-Mumtahanah",
+      "translation": "She that is to be examined",
+      "emoji": "📄"
+    },
+    "61": {
+      "arabic": "الصف",
+      "english": "As-Saf",
+      "translation": "The Ranks",
+      "emoji": "🎯"
+    },
+    "62": {
+      "arabic": "الجمعة",
+      "english": "Al-Jumu'ah",
+      "translation": "The Congregation, Friday",
+      "emoji": "🕌"
+    },
+    "63": {
+      "arabic": "المنافقون",
+      "english": "Al-Munafiqun",
+      "translation": "The Hypocrites",
+      "emoji": "🎭"
+    },
+    "64": {
+      "arabic": "التغابن",
+      "english": "At-Taghabun",
+      "translation": "The Mutual Disillusion",
+      "emoji": "🔄"
+    },
+    "65": {
+      "arabic": "الطلاق",
+      "english": "At-Talaq",
+      "translation": "The Divorce",
+      "emoji": "💔"
+    },
+    "66": {
+      "arabic": "التحريم",
+      "english": "At-Tahrim",
+      "translation": "The Prohibition",
+      "emoji": "🚫"
+    },
+    "67": {
+      "arabic": "الملك",
+      "english": "Al-Mulk",
+      "translation": "The Sovereignty",
+      "emoji": "👑"
+    },
+    "68": {
+      "arabic": "القلم",
+      "english": "Al-Qalam",
+      "translation": "The Pen",
+      "emoji": "🖊️"
+    },
+    "69": {
+      "arabic": "الحاقة",
+      "english": "Al-Haqqah",
+      "translation": "The Reality",
+      "emoji": "⚡"
+    },
+    "70": {
+      "arabic": "المعارج",
+      "english": "Al-Ma'arij",
+      "translation": "The Ascending Stairways",
+      "emoji": "🪜"
+    },
+    "71": {
+      "arabic": "نوح",
+      "english": "Nuh",
+      "translation": "Noah",
+      "emoji": "🚢"
+    },
+    "72": {
+      "arabic": "الجن",
+      "english": "Al-Jinn",
+      "translation": "The Jinn",
+      "emoji": "🧞"
+    },
+    "73": {
+      "arabic": "المزمل",
+      "english": "Al-Muzzammil",
+      "translation": "The Enshrouded One",
+      "emoji": "🌃"
+    },
+    "74": {
+      "arabic": "المدثر",
+      "english": "Al-Muddaththir",
+      "translation": "The Cloaked One",
+      "emoji": "🧥"
+    },
+    "75": {
+      "arabic": "القيامة",
+      "english": "Al-Qiyamah",
+      "translation": "The Resurrection",
+      "emoji": "🌅"
+    },
+    "76": {
+      "arabic": "الإنسان",
+      "english": "Al-Insan",
+      "translation": "The Human",
+      "emoji": "🧍"
+    },
+    "77": {
+      "arabic": "المرسلات",
+      "english": "Al-Mursalat",
+      "translation": "The Emissaries",
+      "emoji": "💌"
+    },
+    "78": {
+      "arabic": "النبأ",
+      "english": "An-Naba",
+      "translation": "The Tidings",
+      "emoji": "📢"
+    },
+    "79": {
+      "arabic": "النازعات",
+      "english": "An-Nazi'at",
+      "translation": "Those who drag forth",
+      "emoji": "🌊"
+    },
+    "80": {
+      "arabic": "عبس",
+      "english": "'Abasa",
+      "translation": "He Frowned",
+      "emoji": "😔"
+    },
+    "81": {
+      "arabic": "التكوير",
+      "english": "At-Takwir",
+      "translation": "The Overthrowing",
+      "emoji": "🌀"
+    },
+    "82": {
+      "arabic": "الانفطار",
+      "english": "Al-Infitar",
+      "translation": "The Cleaving",
+      "emoji": "💥"
+    },
+    "83": {
+      "arabic": "المطففين",
+      "english": "Al-Mutaffifin",
+      "translation": "The Defrauding",
+      "emoji": "⚖️"
+    },
+    "84": {
+      "arabic": "الانشقاق",
+      "english": "Al-Inshiqaq",
+      "translation": "The Splitting Open",
+      "emoji": "🌠"
+    },
+    "85": {
+      "arabic": "البروج",
+      "english": "Al-Buruj",
+      "translation": "The Constellations",
+      "emoji": "✨"
+    },
+    "86": {
+      "arabic": "الطارق",
+      "english": "At-Tariq",
+      "translation": "The Morning Star",
+      "emoji": "🌟"
+    },
+    "87": {
+      "arabic": "الأعلى",
+      "english": "Al-A'la",
+      "translation": "The Most High",
+      "emoji": "☝️"
+    },
+    "88": {
+      "arabic": "الغاشية",
+      "english": "Al-Ghashiyah",
+      "translation": "The Overwhelming",
+      "emoji": "🌊"
+    },
+    "89": {
+      "arabic": "الفجر",
+      "english": "Al-Fajr",
+      "translation": "The Dawn",
+      "emoji": "🌄"
+    },
+    "90": {
+      "arabic": "البلد",
+      "english": "Al-Balad",
+      "translation": "The City",
+      "emoji": "🏙️"
+    },
+    "91": {
+      "arabic": "الشمس",
+      "english": "Ash-Shams",
+      "translation": "The Sun",
+      "emoji": "☀️"
+    },
+    "92": {
+      "arabic": "الليل",
+      "english": "Al-Layl",
+      "translation": "The Night",
+      "emoji": "🌃"
+    },
+    "93": {
+      "arabic": "الضحى",
+      "english": "Ad-Duhaa",
+      "translation": "The Morning Hours",
+      "emoji": "🌅"
+    },
+    "94": {
+      "arabic": "الشرح",
+      "english": "Ash-Sharh",
+      "translation": "The Relief",
+      "emoji": "💝"
+    },
+    "95": {
+      "arabic": "التين",
+      "english": "At-Tin",
+      "translation": "The Fig",
+      "emoji": "🫒"
+    },
+    "96": {
+      "arabic": "العلق",
+      "english": "Al-'Alaq",
+      "translation": "The Clot",
+      "emoji": "📖"
+    },
+    "97": {
+      "arabic": "القدر",
+      "english": "Al-Qadr",
+      "translation": "The Power",
+      "emoji": "🌟"
+    },
+    "98": {
+      "arabic": "البينة",
+      "english": "Al-Bayyinah",
+      "translation": "The Clear Proof",
+      "emoji": "📃"
+    },
+    "99": {
+      "arabic": "الزلزلة",
+      "english": "Az-Zalzalah",
+      "translation": "The Earthquake",
+      "emoji": "🌍"
+    },
+    "100": {
+      "arabic": "العاديات",
+      "english": "Al-'Adiyat",
+      "translation": "The Courser",
+      "emoji": "🐎"
+    },
+    "101": {
+      "arabic": "القارعة",
+      "english": "Al-Qari'ah",
+      "translation": "The Calamity",
+      "emoji": "💥"
+    },
+    "102": {
+      "arabic": "التكاثر",
+      "english": "At-Takathur",
+      "translation": "The Rivalry in world increase",
+      "emoji": "📈"
+    },
+    "103": {
+      "arabic": "العصر",
+      "english": "Al-'Asr",
+      "translation": "The Declining Day",
+      "emoji": "⏳"
+    },
+    "104": {
+      "arabic": "الهمزة",
+      "english": "Al-Humazah",
+      "translation": "The Traducer",
+      "emoji": "🗣️"
+    },
+    "105": {
+      "arabic": "الفيل",
+      "english": "Al-Fil",
+      "translation": "The Elephant",
+      "emoji": "🐘"
+    },
+    "106": {
+      "arabic": "قريش",
+      "english": "Quraysh",
+      "translation": "Quraysh",
+      "emoji": "🏛️"
+    },
+    "107": {
+      "arabic": "الماعون",
+      "english": "Al-Ma'un",
+      "translation": "The Small Kindnesses",
+      "emoji": "🤝"
+    },
+    "108": {
+      "arabic": "الكوثر",
+      "english": "Al-Kawthar",
+      "translation": "The Abundance",
+      "emoji": "💧"
+    },
+    "109": {
+      "arabic": "الكافرون",
+      "english": "Al-Kafirun",
+      "translation": "The Disbelievers",
+      "emoji": "🚫"
+    },
+    "110": {
+      "arabic": "النصر",
+      "english": "An-Nasr",
+      "translation": "The Divine Support",
+      "emoji": "🕊️"
+    },
+    "111": {
+      "arabic": "المسد",
+      "english": "Al-Masad",
+      "translation": "The Palm Fiber",
+      "emoji": "🔥"
+    },
+    "112": {
+      "arabic": "الإخلاص",
+      "english": "Al-Ikhlas",
+      "translation": "The Sincerity",
+      "emoji": "☝️"
+    },
+    "113": {
+      "arabic": "الفلق",
+      "english": "Al-Falaq",
+      "translation": "The Daybreak",
+      "emoji": "🌅"
+    },
+    "114": {
+      "arabic": "الناس",
+      "english": "An-Nas",
+      "translation": "Mankind",
+      "emoji": "👥"
+    }
+  }
+}

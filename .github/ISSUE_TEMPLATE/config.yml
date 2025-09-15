@@ -1,0 +1,20 @@
+# =============================================================================
+# GitHub Issue Templates Configuration
+# =============================================================================
+# Configuration for QuranBot issue templates and community guidelines
+# =============================================================================
+
+blank_issues_enabled: false
+contact_links:
+  - name: 🕌 Community Discussions
+    url: https://github.com/trippixn963/QuranBot/discussions
+    about: Join our community discussions for general questions, support, and Islamic content discussions
+  - name: 🆘 Discord Support
+    url: https://discord.gg/syria
+    about: Get real-time help from our community on Discord
+  - name: 📖 Documentation
+    url: https://github.com/trippixn963/QuranBot/blob/main/README.md
+    about: Read the comprehensive documentation and setup guides
+  - name: 🤲 Islamic Content Guidelines
+    url: https://github.com/trippixn963/QuranBot/blob/main/.github/CONTRIBUTING.md#islamic-content-standards
+    about: Guidelines for contributing and reviewing Islamic content
