@@ -86,7 +86,7 @@ async def main() -> None:
         ("Developer", Version.DEVELOPER),
         ("Server", Version.SERVER),
         ("Mode", "24/7 Automatic Streaming"),
-        ("Stage Channel", "1402566993630199808"),
+        ("Stage Channel", "Auto-detected" if not config.stage_channel_id else str(config.stage_channel_id)),
         ("Instance Lock", "Protected")
     ])
     

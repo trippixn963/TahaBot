@@ -53,8 +53,8 @@ class Config:
     default_reciter: str = "Saad Al Ghamdi"
     
     # Target Discord stage channel ID where the bot will stream
-    # This specific channel ID is configured for the Syria server
-    stage_channel_id: int = 1402566993630199808
+    # This should be configured via environment variable
+    stage_channel_id: Optional[int] = None
 
     # File System Paths
     # Audio directory path relative to project root
@@ -88,8 +88,12 @@ def get_config() -> Config:
             # Terminate program since bot cannot function without Discord token
             sys.exit(1)
         
+        # Get optional stage channel ID from environment
+        stage_channel_id_str = os.getenv("STAGE_CHANNEL_ID")
+        stage_channel_id = int(stage_channel_id_str) if stage_channel_id_str else None
+
         # Create configuration instance with validated Discord token
-        config = Config(discord_token=discord_token)
+        config = Config(discord_token=discord_token, stage_channel_id=stage_channel_id)
         
         # Ensure audio directory exists for Quran audio files
         # This directory contains the reciter folders with MP3 files
