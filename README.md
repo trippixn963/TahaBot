@@ -29,7 +29,7 @@
 ### ⚠️ **Important Notice**
 This bot was custom-built for **discord.gg/syria** and is provided as-is for educational purposes. **No support will be provided** for setup, configuration, or troubleshooting.
 
-### 🆕 **What's New in v2.0.0**
+### 🆕 **Features in v1.0.0**
 - **🎵 MP3 Duration Management**: Accurate duration extraction and caching for precise progress tracking
 - **💾 State Persistence**: Bot remembers current surah and reciter across restarts
 - **🔒 Instance Locking**: Prevents multiple bot instances from running simultaneously
